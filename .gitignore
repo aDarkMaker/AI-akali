@@ -1,2 +1,6 @@
 # .venv
 .bot/
+.cursor/
+
+# modules
+node_modules/
