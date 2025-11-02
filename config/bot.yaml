@@ -1,3 +1,8 @@
 host: 127.0.0.1
 port: 8765
+
+qq_host: 127.0.0.1
+qq_ws_port: 8080
+qq_ws_path: /event
+qq_http_port: 5700
 access_token: ""
