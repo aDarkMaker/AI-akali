@@ -2,3 +2,6 @@
 name = "cz_conventional_commits"
 version = "1.0.0"
 tag_format = "v$version"
+
+[tool.black]
+line-length = 79
