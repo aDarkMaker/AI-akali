@@ -4,3 +4,14 @@
 
 # modules
 node_modules/
+
+# _pycache
+__pycache__/
+
+.env
+.env.local
+
+# 数据目录
+data/models/
+data/logs/
+data/cache/

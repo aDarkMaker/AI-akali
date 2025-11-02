@@ -1,2 +1,4 @@
 AIAkali
 aiakali
+nonebot
+onebot

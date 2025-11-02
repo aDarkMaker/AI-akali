@@ -9,7 +9,19 @@
             "addWords": true
         }
     ],
-    "words": ["aiakali", "AIAkali", "Akali", "commitizen", "precommit", "pyproject"],
+    "words": [
+        "aiakali",
+        "AIAkali",
+        "aiohappyeyeballs",
+        "Akali",
+        "commitizen",
+        "decli",
+        "lfmh",
+        "nonebot",
+        "onebot",
+        "precommit",
+        "pyproject"
+    ],
     "ignorePaths": [
         "node_modules/**",
         ".bot/**",
@@ -19,7 +31,9 @@
         "*.lock",
         ".git/**",
         "dist/**",
-        "build/**"
+        "build/**",
+        "requirements.txt",
+        "cspell-custom-words.txt"
     ],
     "flagWords": [],
     "languageSettings": [
