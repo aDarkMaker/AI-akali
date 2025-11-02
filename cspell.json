@@ -20,7 +20,8 @@
         "nonebot",
         "onebot",
         "precommit",
-        "pyproject"
+        "pyproject",
+        "retcode"
     ],
     "ignorePaths": [
         "node_modules/**",
