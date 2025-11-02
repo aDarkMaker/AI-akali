@@ -1,0 +1,23 @@
+{
+  "name": "aiakali",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "cspell": "^9.2.2",
+    "prettier": "^3.6.2"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,yaml,yml}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,yaml,yml}\"",
+    "spell-check": "cspell \"**/*.{ts,tsx,js,jsx,md,json,py,yaml,yml}\"",
+    "spell-check:fix": "cspell \"**/*.{ts,tsx,js,jsx,md,json,py,yaml,yml}\" --no-must-find-files --file-list stdin",
+    "spell-check:interactive": "cspell \"**/*.{ts,tsx,js,jsx,md,json,py,yaml,yml}\" --show-suggestions"
+  }
+}

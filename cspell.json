@@ -1,0 +1,53 @@
+{
+  "version": "0.2",
+  "language": "en,zh-CN",
+  "dictionaries": [
+    "typescript",
+    "node",
+    "npm",
+    "python",
+    "bash",
+    "software-terms"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-words",
+      "path": "./cspell-custom-words.txt",
+      "addWords": true
+    }
+  ],
+  "words": [
+    "aiakali",
+    "AIAkali",
+    "Akali",
+    "commitizen",
+    "precommit",
+    "pyproject"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    ".bot/**",
+    "**/__pycache__/**",
+    "**/*.pyc",
+    "bun.lock",
+    "*.lock",
+    ".git/**",
+    "dist/**",
+    "build/**"
+  ],
+  "flagWords": [],
+  "languageSettings": [
+    {
+      "languageId": "*",
+      "caseSensitive": false
+    },
+    {
+      "languageId": "python",
+      "ignoreRegExpList": ["/#.*/g"]
+    },
+    {
+      "languageId": "typescript",
+      "ignoreRegExpList": ["/import.*from.*['\"].*/g"]
+    }
+  ]
+}
