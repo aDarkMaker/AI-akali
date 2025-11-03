@@ -1,0 +1,39 @@
+# 训练配置
+
+# 数据路径
+data_dir: "data/datasets"
+train_file: null
+val_file: null
+test_file: null
+
+# Tokenizer
+tokenizer_path: null
+vocab_size: 50000
+train_tokenizer: true
+
+# 模型配置
+hidden_size: 2048
+num_layers: 24
+num_heads: 16
+intermediate_size: 5632
+max_position_embeddings: 8192
+
+# 训练参数
+batch_size: 4
+gradient_accumulation_steps: 8
+learning_rate: 5e-5
+min_lr: 1e-6
+weight_decay: 0.01
+num_epochs: 3
+max_length: 2048
+
+# 输出
+output_dir: "data/models"
+save_steps: 500
+eval_steps: 500
+logging_steps: 100
+
+# 其他
+seed: 42
+fp16: true
+dataloader_num_workers: 4
