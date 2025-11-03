@@ -1,7 +1,4 @@
-"""QQ Bot startup script"""
-
 import asyncio
-import signal
 import sys
 from pathlib import Path
 
@@ -69,25 +66,14 @@ class QQBot:
                 await self.client.disconnect()
 
 
-def setup_signal_handlers():
-    """Setup signal handlers"""
-
-    def signal_handler(signum, frame):
-        print("\nReceived exit signal...")
-        loop = asyncio.get_event_loop()
-        loop.stop()
-
-    signal.signal(signal.SIGINT, signal_handler)
-    signal.signal(signal.SIGTERM, signal_handler)
-
-
 def main():
     """Main function"""
     bot = QQBot()
-    setup_signal_handlers()
 
     try:
         asyncio.run(bot.start())
+    except KeyboardInterrupt:
+        print("\nClosing bot...")
     except Exception as e:
         print(f"Error: {e}")
         raise
