@@ -6,3 +6,6 @@ qq_ws_port: 8080
 qq_ws_path: /event
 qq_http_port: 5700
 access_token: ""
+
+qq_uin: 0 # QQ账号，0表示扫码登录
+qq_password: "" # QQ密码，为空则使用扫码登录
