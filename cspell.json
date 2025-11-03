@@ -14,14 +14,21 @@
         "AIAkali",
         "aiohappyeyeballs",
         "Akali",
+        "autocast",
         "commitizen",
         "daid",
         "decli",
         "dumy",
+        "freqs",
+        "Kaze",
+        "keepdim",
+        "layernorm",
         "lfmh",
         "loginerroralert",
+        "multinomial",
         "nonebot",
         "onebot",
+        "pbar",
         "precommit",
         "ptlang",
         "ptqrtoken",
@@ -32,10 +39,12 @@
         "qrsig",
         "randsalt",
         "retcode",
+        "silu",
         "skey",
         "uistyle",
         "verifycode",
-        "webqq"
+        "webqq",
+        "Weibo"
     ],
     "ignorePaths": [
         "node_modules/**",
@@ -48,7 +57,8 @@
         "dist/**",
         "build/**",
         "requirements.txt",
-        "cspell-custom-words.txt"
+        "cspell-custom-words.txt",
+        "data/*"
     ],
     "flagWords": [],
     "languageSettings": [
