@@ -61,7 +61,8 @@
         "build/**",
         "requirements.txt",
         "cspell-custom-words.txt",
-        "data/*"
+        "data/*",
+        "MCP/TTS/index-tts/**"
     ],
     "flagWords": [],
     "languageSettings": [
